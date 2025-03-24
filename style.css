@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #000428, #004e92);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.resume-btn {
+  background: #f39c12;
+  padding: 5px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 150px 20px;
+}
+
+.hero span {
+  color: #f39c12;
+}
+
+.btn {
+  background: #f39c12;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* About Me */
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+/* Skills */
+.skills-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.skill {
+  background: #222;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Projects */
+.project-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+/* Contact */
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+form button {
+  background: #f39c12;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
